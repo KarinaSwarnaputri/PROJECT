@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+ 
+
+        <head>
+                <script src="js/jquery-3.2.1.min.js"></script>
+                <link href="https://fonts.googleapis.com/css?family=Arvo|Barlow+Condensed|Fjalla+One|Noto+Serif|Open+Sans|Oswald|Patua+One|Roboto+Condensed|Roboto+Slab|Slabo+27px|Source+Sans+Pro" rel="stylesheet">
+                
+            <style>
+            
+            h1 {color:black;
+                font-family: "Open Sans";
+                font-size: 40px;
+                }
+            
+            h2 { font-family: "roboto slab";
+            color: black;
+            }
+            
+            h3 { font-family:"Roboto Slab";
+            color:  rgb(8, 47, 71);
+            font-size:30px;}
+
+            h4 {color: black;
+                    font-family: "noto serif";}
+
+            h5 {color: rgb(8, 47, 71);
+            font-family:"arvo";
+            }
+        
+
+        @media screen and (min-width: 900px){
+            #content{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-auto-rows: 200px;
+            grid-gap: 10px;
+            max-width: 960px;
+            margin: 0 auto;
+            
+            grid-template-areas:
+            "kotak1 kotak1 kotak1"
+            ". kotak2 kotak2";
+            }}
+            .kotak1{
+            grid-area: kotak1;
+            color:black;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+            }
+            .kotak2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap:10px;
+            grid-area: kotak2;
+            color: black;
+                        font-family: "Open Sans";
+        } 
+
+        /* .kotak2 p{
+            border: 3px solid black;
+            padding: 20px;
+        }  */
+
+
+        body{
+        color: solid black;
+        text-align: center;
+        }
+        
+        #content div{
+        background: white;
+        border:2px white;
+        padding: 30px;
+        }
+        #content div:nth-child(even){
+        background: white;
+        border:2px white;
+        }
+        </style></head>
+
+        
+<body>
+    <div id="content">
+    <div class="kotak1">
+        <img src="Instagram_logo.svg.png" width="100" height="50">
+            <h1>karinaswarnaputri</h1><hr>
+    </div>
+    <div class="kotak2">
+            <p>20<br>Pictures</p>
+            <p>300<br>Followers</p>
+            <p>300<br>Followings</p>
+            
+    </div>
+    <div class="kotak3">
+            <img alt="Change profile photo" class="_cuacn" src="https://instagram.fjkt1-1.fna.fbcdn.net/vp/2d1da2d2beeca5d52de589e57c280dae/5B49FE12/t51.2885-19/s320x320/16465201_249193575527322_7884899801802735616_a.jpg" width="140" height="140" >
+            <a href="https://instagram.fjkt1-1.fna.fbcdn.net/vp/2d1da2d2beeca5d52de589e57c280dae/5B49FE12/t51.2885-19/s320x320/16465201_249193575527322_7884899801802735616_a.jpg"></a>             
+        </div>
+    <div class="kotak4" justify-items:"center">
+        <img src="1410013412003.jpg"  width="140" height="140" 
+    alt="picture 4" >
+    </div>
+    <div class="kotak5" justify-items:"center">
+            <img src="1411377986183.jpg"  width="140" height="140" 
+            alt="picture 5" >
+
+
+    </div>
+    <div class="kotak6" justify-items:"center">
+            <img src="20140524_114623.jpg"  width="140" height="140" 
+        alt="picture 1" >
+    </div>
+    <div class="kotak7"justify-items:"center">
+            <img src="20131109_173831.jpg"  width="140" height="140" 
+        alt="picture 2" >
+    </div>
+    <div class="kotak8"justify-items:"center">
+            <img src="1410635556181.jpg"  width="140" height="140" 
+        alt="picture 3" >
+    </div>
+    <div class="kotak9"justify-items:"center">
+            <img src="1410860524141.jpg"  width="140" height="140" 
+        alt="picture 6" >
+    </div>
+
+
+    </div>
+    </body>
